@@ -21,6 +21,7 @@ body {
     justify-content: center; /*centers the whole row of projects */
     max-width: 1200px;
     margin: 20px auto;
+    align-items: flex-start; /* Aligns boxes to the top edge of the container */
 }
 
 .project {
