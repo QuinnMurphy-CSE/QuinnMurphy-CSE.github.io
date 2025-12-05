@@ -44,11 +44,11 @@ h1, h2{
 }
 
 .project img{
-    width: 23%;
+    max-width: 100%;
     height: auto;
-    margin: 10px;
-    border: 2px solid rgb(0, 0, 0); display: block;
-    margin: auto; 
+    border: 2px solid rgb(0, 0, 0); 
+    display: block;
+    margin: 10px auto; 
 }
 
 
