@@ -55,56 +55,56 @@ h1, h2{
     box-sizing: border-box;
 }
 
-
 /*Resume CSS Styles*/
 
 .resume-container {
     max-width: 800px; 
     margin: 40px auto;
     padding: 30px;
-    background-color: #ffffff; 
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: transparent; 
+    box-shadow: none;
+    border-radius: 0;
 }
 
 .resume-header {
     text-align: center;
-    border-bottom: 2px solid #333; 
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    border-bottom: none; 
+    padding-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .resume-header h1 {
     margin: 0;
-    color: #333;
+    color: #000; 
     font-size: 1.8em;
 }
 
 .contact-info {
     margin: 5px 0 0 0;
     font-size: 0.9em;
-    color: #555;
+    color: #000; 
 }
+.contact-info a {
+    color: #000;
+    text-decoration: none;
+}
+
 
 .resume-section h2 {
-    color: #2b4984; 
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
+    color: #000; 
+    border-bottom: none;
+    padding-bottom: 0;
     margin-top: 25px;
-    margin-bottom: 15px;
-    font-size: 1.4em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.entry {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    text-transform: none; 
+    letter-spacing: normal;
+    font-weight: bold; 
 }
 
 .entry-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    display: block;
+    margin-top: 5px;
 }
 
 .entry-header h3 {
@@ -114,9 +114,10 @@ h1, h2{
 }
 
 .entry-header .date {
-    font-style: italic;
-    color: #555;
-    font-size: 0.95em;
+    font-style: normal;
+    color: #000;
+    font-size: 1em;
+    display: block;
 }
 
 .entry-details h4 {
@@ -126,9 +127,9 @@ h1, h2{
 }
 
 .entry-details .date-range {
-    margin: 0 0 10px 0;
-    font-size: 0.9em;
-    color: #777;
+    margin: 0;
+    font-size: 0.95em;
+    color: #000;
 }
 
 .entry-details ul {
@@ -136,19 +137,28 @@ h1, h2{
     margin: 5px 0 0 20px;
     padding: 0;
 }
-
-.entry-details li {
-    margin-bottom: 5px;
-    line-height: 1.4;
+.skills-list {
+    margin-top: 10px;
+}
+.skills-list p {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.language-list {
+    list-style-type: circle;
+    margin: 0 0 10px 30px;
     font-size: 0.95em;
 }
+.language-list li {
+    margin-bottom: 0;
+    line-height: 1.2;
+}
 
-/* Attribution Footer */
 .attribution {
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 10px;
-    border-top: 1px dashed #ccc;
+    text-align: left;
+    margin-top: 10px;
+    padding-top: 0;
+    border-top: none;
     font-size: 0.8em;
-    color: #999;
+    color: #000;
 }
