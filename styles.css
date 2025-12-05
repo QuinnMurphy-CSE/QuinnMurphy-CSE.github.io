@@ -1,7 +1,6 @@
 body {
-    background-color: #759eb7; 
-    font-family: 'Helvetica Neue', Arial, sans-serif; 
-    margin: 0;
+    background-color: #ffffff; /* Set main background to white */
+    font-family: 'Times New Roman', Times, serif; /* Changed font to Times New Roman */    margin: 0;
     padding: 0;
 }
 
@@ -55,34 +54,34 @@ h1, h2{
     box-sizing: border-box;
 }
 
-/*Resume CSS Styles*/
 
+/*CSS Resume styles*/
 .resume-container {
     max-width: 800px; 
     margin: 40px auto;
     padding: 30px;
-    background-color: transparent; 
-    box-shadow: none;
+    background-color: #ffffff; 
+    box-shadow: none; 
     border-radius: 0;
 }
 
 .resume-header {
     text-align: center;
     border-bottom: none; 
-    padding-bottom: 5px;
-    margin-bottom: 15px;
+    padding-bottom: 0;
+    margin-bottom: 10px; 
 }
 
 .resume-header h1 {
     margin: 0;
-    color: #000; 
+    color: #000;
     font-size: 1.8em;
 }
 
 .contact-info {
     margin: 5px 0 0 0;
     font-size: 0.9em;
-    color: #000; 
+    color: #000;
 }
 .contact-info a {
     color: #000;
@@ -92,21 +91,29 @@ h1, h2{
 
 .resume-section h2 {
     color: #000; 
-    border-bottom: none;
+    text-align: left; 
+    font-weight: bold;
+    text-decoration: underline;
+    
+    border-bottom: none; 
     padding-bottom: 0;
-    margin-top: 25px;
-    margin-bottom: 5px;
-    font-size: 1.2em;
-    text-transform: none; 
-    letter-spacing: normal;
-    font-weight: bold; 
+    margin-top: 25px; 
+    margin-bottom: 5px; 
+    font-size: 1.4em;
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+}
+
+.entry {
+    margin-bottom: 10px;
 }
 
 .entry-header {
-    display: block;
-    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: #000;
 }
-
 .entry-header h3 {
     margin: 0;
     font-size: 1.1em;
@@ -116,19 +123,19 @@ h1, h2{
 .entry-header .date {
     font-style: normal;
     color: #000;
-    font-size: 1em;
-    display: block;
+    font-size: 0.95em;
 }
 
 .entry-details h4 {
     margin: 5px 0;
     font-size: 1em;
     font-weight: normal;
+    color: #000;
 }
 
 .entry-details .date-range {
-    margin: 0;
-    font-size: 0.95em;
+    margin: 0 0 5px 0; 
+    font-size: 0.9em;
     color: #000;
 }
 
@@ -137,28 +144,18 @@ h1, h2{
     margin: 5px 0 0 20px;
     padding: 0;
 }
-.skills-list {
-    margin-top: 10px;
-}
-.skills-list p {
-    margin-top: 5px;
-    margin-bottom: 0;
-}
-.language-list {
-    list-style-type: circle;
-    margin: 0 0 10px 30px;
-    font-size: 0.95em;
-}
-.language-list li {
-    margin-bottom: 0;
+
+.entry-details li {
+    margin-bottom: 2px; 
     line-height: 1.2;
+    font-size: 0.95em;
+    color: #000;
 }
 
-.attribution {
-    text-align: left;
-    margin-top: 10px;
-    padding-top: 0;
-    border-top: none;
-    font-size: 0.8em;
+.skills-list p {
+    margin: 2px 0;
     color: #000;
+}
+.attribution {
+    display: none;
 }
