@@ -20,10 +20,10 @@ h1, h2{
     padding-top: 20px;
     margin-bottom: 20px;
 }
-
+/*AI assisted with getting the projects to fit nicely in a 2x2*/
 .projects {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     max-width: 1200px;
     margin: 20px auto;
@@ -31,13 +31,14 @@ h1, h2{
 }
 
 .project {
-    width: 100%; /* Remove the 23% */
-    margin: 0; /* Remove margin since gap handles spacing */
+    width: 100%;
+    margin: 0;
     padding: 20px;
     background: #f7f7f7; 
     border: 1px solid #ccc;
     border-radius: 25px; 
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .project img{
