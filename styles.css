@@ -20,7 +20,7 @@ h1, h2{
     padding-top: 20px;
     margin-bottom: 20px;
 }
-/*AI assisted with getting the projects to fit nicely in a 2x2*/
+/*AI assisted with getting the projects to fit in a 2x2*/
 .projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -43,6 +43,7 @@ h1, h2{
     border-radius: 25px; 
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box; 
 }
 
 .project img{
@@ -51,6 +52,7 @@ h1, h2{
     border: 2px solid rgb(0, 0, 0); 
     display: block;
     margin: 10px auto; 
+    box-sizing: border-box;
 }
 
 
